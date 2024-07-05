@@ -137,18 +137,20 @@ nav {
     width: 100%;
     display: flex;
     margin: 100px 0 0 0;
+    height: fit-content;
 }
 
 .landing__container--content {
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 520px;
+    height: fit-content;
     margin-right: 60px;
     justify-content: space-around;
 }
 
 .landing__container--img {
+    position: relative;
     width: 60%;
 }
 
@@ -1100,6 +1102,10 @@ footer {
 }
 
 @media (max-width: 660px) {
+    .section__subtitle {
+        font-size: 35px;
+    }
+
     .features__container {
         justify-content: center;
     }
@@ -1195,6 +1201,10 @@ footer {
     .faq__chevron {
         top: 15px;
     }
+
+    .input__container {
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1214,6 +1224,18 @@ footer {
 }
 
 @media (max-width: 440px) {
+    .section__subtitle {
+        font-size: 30px;
+    }
+
+    .testimonial__name {
+        font-size: 14px;
+    }
+
+    .testimonial__position {
+        font-size: 12px;
+    }
+
     .faq__title {
         font-size: 10px;
     }
